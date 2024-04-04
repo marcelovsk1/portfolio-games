@@ -24,24 +24,24 @@
 }
 
 .first-name {
-  color: var(--black);
+  color: white;
   font-weight: 600;
 }
 
 .last-name {
-  color: #007AFF;
+  color: var(--purple);
   font-weight: 600;
 }
 
 .n-list {
   flex: 10;
   font-size: 25px;
-  color: var(--black);
+  color: var(--gray);
   text-decoration: none;
 }
 
 .n-list li a {
-  color: var(--black);
+  color: white;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@
 .n-list > ul > li:hover {
   font-weight: 600;
   cursor: pointer;
-  background: linear-gradient(to right, #ef3c36, #FFE983, #8bef2d, #007AFF, #9c48e5);
+  background: linear-gradient(to right, #9c48e5, #9c48e6);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
