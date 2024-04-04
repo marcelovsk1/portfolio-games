@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './Intro.css';
-import github from '../../img/github_icon.png';
-import linkedin from '../../img/linkedin _icon.png';
+// import github from '../../img/github_icon.png';
+// import linkedin from '../../img/linkedin _icon.png';
 import avatar from '../../img/avatar12.png';
 
 const Intro = () => {
   const [typedText, setTypedText] = useState('');
-  const texts = ["Game Developer 👾"];
+  const texts = ["Game Developer"];
   const [textIndex, setTextIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
 
