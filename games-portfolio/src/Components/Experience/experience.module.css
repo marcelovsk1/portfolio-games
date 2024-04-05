@@ -43,6 +43,7 @@
 
 .skillImageContainer {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: var(--purple);
   border-radius: 20%;
   display: flex;
   align-items: center;
@@ -56,7 +57,7 @@
 }
 
 .skill p {
-  font-size: 15px;
+  font-size: 35px;
   font-family: var(--font-roboto);
   font-weight: 500;
   text-align: center; /* Ajustado para centralizar o texto */

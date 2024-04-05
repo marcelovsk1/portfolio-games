@@ -1,0 +1,14 @@
+[
+  {
+    "title": "C#",
+    "imageSrc": "Skill/csharp.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "Skill/c+.png"
+  },
+  {
+    "title": "Unity",
+    "imageSrc": "Skill/unity.svg"
+  }
+]
