@@ -1,40 +1,19 @@
 import React from "react";
 import styles from "./Experience.module.css";
 import skills from "../../Data/Skill.json";
-import historyData from "../../Data/History.json";
-import swiftImage from "../../Assets/Skills/swift.png";
-import JSImage from "../../Assets/Skills/js.png";
-import reactImage from "../../Assets/Skills/react.png";
-import pythonImage from "../../Assets/Skills/python_2.png";
-import CImage from "../../Assets/Skills/csharp.png";
-import railsImage from "../../Assets/Skills/rails.svg";
-import ruby from "../../Assets/Skills/ruby.png";
-import gitImage from "../../Assets/Skills/git_icon.png";
-import unityImage from "../../Assets/Skills/unity.svg";
-import trenditImage from "../../Assets/Skills/trendit_img.png";
+import cPlusImage from "../../Assets/Skill/c+.png";
+import CImage from "../../Assets/Skill/csharp.png";
+import unityImage from "../../Assets/Skill/unity.svg"
+
 
 const getImage = (imageSrc) => {
   switch (imageSrc) {
-    case "Skills/swift.png":
-      return swiftImage;
-    case "Skills/js.png":
-      return JSImage;
-    case "Skills/react.png":
-      return reactImage;
-    case "Skills/python.png":
-      return pythonImage;
-    case "Skills/csharp.png":
+    case "Skill/csharp.png":
       return CImage;
-    case "Skills/rails.svg":
-      return railsImage;
-    case "Skills/ruby.png":
-      return ruby
-    case "Skills/git_icon.png":
-      return gitImage;
-    case "Skills/unity.svg":
+    case "Skill/c+.png":
+      return cPlusImage
+    case "/unity.svg":
       return unityImage;
-    case "Skills/trendit_img.png":
-      return trenditImage;
     default:
       return null;
   }
@@ -58,26 +37,6 @@ const Experience = () => {
             </div>
           ))}
         </div>
-        <ul className={styles.history}>
-          {/* Renderização do histórico */}
-          {historyData.map((historyItem, historyId) => (
-            <li key={historyId} className={styles.historyItem}>
-              <div className={styles.historyItemDetails}>
-                <img
-                  src={getImage(historyItem.imageSrc)}
-                  alt={`${historyItem.organisation} Logo`}
-                />
-                <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                <ul>
-                  {historyItem.experiences.map((experience, id) => (
-                    <li key={id}>{experience}</li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-          ))}
-        </ul>
       </div>
     </section>
   );
