@@ -3,7 +3,7 @@ import styles from "./Experience.module.css";
 import skills from "../../Data/Skill.json";
 import cPlusImage from "../../Assets/Skill/c+.png";
 import CImage from "../../Assets/Skill/csharp.png";
-import unityImage from "../../Assets/Skill/unity.svg"
+import unityImage from "../../Assets/Skill/unity_logo.png"
 
 
 const getImage = (imageSrc) => {
@@ -12,7 +12,7 @@ const getImage = (imageSrc) => {
       return CImage;
     case "Skill/c+.png":
       return cPlusImage
-    case "/unity.svg":
+    case "Skill/unity_logo.png":
       return unityImage;
     default:
       return null;
@@ -23,7 +23,7 @@ const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>
-        My <span>Experience</span>
+        My <span>Skills</span>
       </h2>
       <div className={styles.content}>
         <div className={styles.skills}>

@@ -8,14 +8,14 @@
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 7vh;
+  color: var(--purple);
+  font-size: 90px;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 600;
-  letter-spacing: -2px;
 }
 
 .title span {
-  color: var(--blueCard);
+  color: white;
   font-weight: 600;
   letter-spacing: -2px;
 }
@@ -53,7 +53,8 @@
 }
 
 .skillImageContainer img {
-  width: 60px;
+  width: 80px;
+  border-radius: 10px;
 }
 
 .skill p {
