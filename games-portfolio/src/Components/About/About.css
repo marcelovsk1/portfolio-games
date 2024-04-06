@@ -2,12 +2,13 @@
   position: relative;
   padding-top: 15px;
   background-color: black;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to top, #31ff79, transparent) 1;
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Prefixo específico do Safari */
-  box-shadow: 0px 4px 8px #9c48e5;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 2%;
-  /* margin-top: 5vh; */
-  /* height: 100%; */
 }
+
 
 .pic_container {
   display: -webkit-box; /* Prefixo específico do Safari */
