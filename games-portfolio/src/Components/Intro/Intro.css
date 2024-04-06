@@ -42,11 +42,12 @@
 }
 
 .i-name > :nth-child(3) {
-  font-size: 45px;
-  margin-top: 5px;
+  font-size: 25px;
+  margin-top: 25px;
   margin-left: 35px;
+  color: var(--green);
   padding: 4px;
-  font-family: "Honk", sans-serif;
+  font-family: "Press Start 2P", sans-serif;
   letter-spacing: 7px;
   background-clip: text;
   font-weight: 600;
@@ -64,8 +65,8 @@
 .button.i-button,
 .button-cv,
 .button-contact {
-  background-color: var(--purple);
-  color: #fff;
+  background-color: var(--green);
+  color: #040404;
   border: none;
   padding: 8px 16px;
   font-size: 14px;

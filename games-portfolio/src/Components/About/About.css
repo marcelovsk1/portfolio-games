@@ -27,7 +27,7 @@
 
 .styles_title {
   font-family: "Bebas Neue", sans-serif;
-  color: var(--purple);
+  color: var(--green);
   font-size: 90px;
   font-weight: 600;
   letter-spacing: -2px;
@@ -124,7 +124,7 @@
 
 h3 {
   font-family: "Bebas Neue", sans-serif;
-  color: var(--purple);
+  color: var(--green);
   font-weight: 600;
   font-size: 34px;
 }
